@@ -2,20 +2,103 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.container{
+  width: 1200px;
+  margin: auto;
+}
+html {
+ scroll-behavior: smooth;
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(20deg); }  
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); } 
+  100% { transform: rotate(0deg); }   
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.marquee {
+ overflow: hidden; 
+ white-space: nowrap; 
+ width: 100%; 
+ position: relative;
+ box-sizing: border-box;
+}
+
+.marquee-content {
+ display: inline-block; 
+ animation: marquee 20s linear infinite;
+ padding-left: 100%; 
+ max-width: 100%; 
+}
+@keyframes marquee {
+ 0% {
+   transform: translateX(0); 
+ }
+ 100% {
+   transform: translateX(-100%); 
+ }
+}
+
+
+/* Media Queries cho thiết bị di động */
+.z-0 {
+ z-index: 0 !important; 
+}
+.custom-class {
+ background-color: #1f2937 !important; /* Màu nền Gray-800 */
+ color: white !important; /* Màu chữ trắng */
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5) !important; /* Bóng đổ */
+}
+.custom-class .slide-pane__header{
+ background-color:  "#1D5BA3";
+}
+body {
+ -webkit-user-select: none; 
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none; 
+}
+@keyframes opacityCircle {
+  0%, 100% {
+      opacity: 0.3; /* Giảm độ trong suốt ban đầu */
+  }
+  50% {
+      opacity: 1; /* Tăng độ trong suốt lên 1 giữa animation */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes opacityPulse {
+  0%, 100% {
+      opacity: 0.5; /* Giảm độ trong suốt ban đầu */
+  }
+  50% {
+      opacity: 1; /* Tăng độ trong suốt lên 1 giữa animation */
+  }
+}
+
+@keyframes shakeIcon {
+  0%, 100% {
+      transform: rotate(0deg); 
+  }
+  50% {
+      transform: rotate(20deg);
+  }
+}
+
+.cmoz-alo-circle {
+  animation: opacityCircle 0.8s infinite; 
+}
+
+.pulse_zalo {
+  animation: opacityPulse 0.8s infinite;
+}
+
+.animated_zalo {
+  animation: shakeIcon 0.8s ease-in-out infinite;
+}
+img {
+  user-drag: none; 
+  -webkit-user-drag: none; 
 }

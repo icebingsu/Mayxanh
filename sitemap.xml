@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.sitemaps.org/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://dienmayxanh.io.vn/</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+     <image:image>
+      <image:loc>https://dienmayxanh.io.vn/images/banner-Sua-Chua1.jpeg</image:loc>
+      <image:caption>Hình ảnh banner trang chủ của Trung tâm bảo hành sửa chữa điện máy xanh</image:caption>
+    </image:image>
+     <image:image>
+      <image:loc>https://dienmayxanh.io.vn/images/banner-Sua-Chua2.jpg</image:loc>
+      <image:caption>Hình ảnh banner trang chủ của Trung tâm bảo hành sửa chữa điện máy xanh</image:caption>
+    </image:image>
+     <video:video>
+      <video:thumbnail_loc>https://dienmayxanh.io.vn/images/dichvu/posterVideo.jpg</video:thumbnail_loc>
+      <video:title>Quy trình lắp đặt và sửa chữa máy lạnh Điện máy xanh</video:title>
+      <video:description>Tại Điện Máy Xanh, chúng tôi không chỉ cung cấp những sản phẩm chất lượng cao mà còn đảm bảo hỗ trợ khách hàng thông qua tổng đài bảo hành chuyên nghiệp. Đội ngũ kỹ thuật viên giàu kinh nghiệm luôn sẵn sàng phục vụ bạn mọi lúc, đảm bảo mọi thiết bị điện tử được chăm sóc tận tình và chu đáo.</video:description>
+      <video:content_loc>https://dienmayxanh.io.vn/images/Lắp đặt - Máy lạnh Funiki HIC09TMU.ST3 - Điện máy XANH (1080p, h264, youtube).mp4</video:content_loc>
+      <video:duration>393</video:duration> 
+      <video:publication_date>2024-10-31T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://dienmayxanh.io.vn/ve-sinh-may-lanh</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dienmayxanh.io.vn/sua-may-lanh</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dienmayxanh.io.vn/sua-ti-vi</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dienmayxanh.io.vn/sua-may-giat</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dienmayxanh.io.vn/sua-tu-lanh</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dienmayxanh.io.vn/sua-bep-tu</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>
